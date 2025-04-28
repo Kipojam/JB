@@ -112,12 +112,12 @@ class AntiDeleteSystem {
   }
 
   formatTime(timestamp) {
-    return new Date(timestamp).toLocaleString('en-PK', {
+    return new Date(timestamp).toLocaleString('en-Jb', {
       timeZone: "Asia/Karachi",
       dateStyle: 'medium',
       timeStyle: 'medium',
       hour12: true
-    }) + " (PKT)";
+    }) + " (Jb)";
   }
 
   async destroy() {
