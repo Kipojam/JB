@@ -69,16 +69,16 @@ const menu = async (m, Matrix) => {
   if (validCommands.includes(cmd)) {
     const str = `
 ╭━━━〔 *${config.BOT_NAME}* 〕━━━┈⊷
-┃★╭──────────────
-┃★│ Owner : *${config.OWNER_NAME}*
-┃★│ User : *${m.pushName}*
-┃★│ Baileys : *Multi Device*
-┃★│ Type : *NodeJs*
-┃★│ Mode : *${mode}*
-┃★│ Platform : *${os.platform()}*
-┃★│ Prefix : [${prefix}]
-┃★│ Version : *3.1.0*
-┃★╰──────────────
+┃🔷️╭──────────────
+┃🔷️│ Owner : *${config.OWNER_NAME}*
+┃🔷️│ User : *${m.pushName}*
+┃🔷️│ Baileys : *Multi Device*
+┃🔷️│ Type : *NodeJs*
+┃🔷️│ Mode : *${mode}*
+┃🔷️│ Platform : *${os.platform()}*
+┃🔷️│ Prefix : [${prefix}]
+┃🔷️│ Version : *3.1.0*
+┃🔷️╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
 
 > ${pushwish} *${m.pushName}*!
