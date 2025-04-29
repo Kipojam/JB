@@ -1,13 +1,13 @@
 {
-  "name": "PK-MD",
+  "name": "JB",
   "version": "10.8.1",
-  "description": "PK-XMD latest multi device whatsapp bot",
+  "description": "JB latest multi device whatsapp bot",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name PK-XMD",
-    "stop": "pm2 stop PK-XMD",
-    "restart": "pm2 restart PK-XMD"
+    "stop": "pm2 stop JB",
+    "restart": "pm2 restart JB"
   },
   "keywords": ["PK-md", "whatsapp-bot", "whatsapp md bot"],
   "author": "PKTechX",
