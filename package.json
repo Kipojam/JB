@@ -1,13 +1,13 @@
 {
-  "name": "JB",
+  "name": "JBKENY",
   "version": "10.8.1",
-  "description": "JB latest multi device whatsapp bot",
+  "description": "JBKENY latest multi device whatsapp bot",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name JB",
+    "start": "pm2 start index.js --deep-monitoring --attach --name JBKENY",
     "stop": "pm2 stop JB",
-    "restart": "pm2 restart JB"
+    "restart": "pm2 restart JBKENY"
   },
   "keywords": ["JB", "whatsapp-bot", "whatsapp md bot"],
   "author": "kipojamX",
