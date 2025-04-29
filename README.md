@@ -15,7 +15,7 @@
 
 `FORK 🍴 AND STAR ⭐ IF YOU LIKE THIS BOT`
 
-  <a href="https://github.com/pkdriller/PK-XMD/fork"><img title="ALI-MD" src="https://img.shields.io/badge/FORK-PK%20XMD-BOTh?color=indigo&style=for-the-badge&logo=stackshare"></a>
+  <a href="https://github.com/Jacobmusy/JBKENY/fork"><img title="JBKENY" src="https://img.shields.io/badge/FORK-JBKENY%20XMD-BOTh?color=indigo&style=for-the-badge&logo=stackshare"></a>
   
 ### 2. 𐃁GET SESSION ID𐃁 
 
@@ -40,7 +40,7 @@
 
 ---
 
-### <h2 align="">𐃁PK-XMD DEPLOYMENT OPTIONS𐃁</h2>
+### <h2 align="">𐃁JBKENY DEPLOYMENT OPTIONS𐃁</h2>
 
 ---
 
@@ -48,7 +48,7 @@
 <p style="text-align: center; font-size: 1.2em;">
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/pkdriller/PK-XMD)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/jacobmusy/JBKENY/JBKENY)
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 ### <h4 align="">3. KOYEB</h4>
