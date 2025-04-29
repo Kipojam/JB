@@ -89,13 +89,13 @@ async function start() {
     try {
         const { state, saveCreds } = await useMultiFileAuthState(sessionDir);
         const { version, isLatest } = await fetchLatestBaileysVersion();
-        console.log(`🤖 XEON-XMD using WA v${version.join('.')}, isLatest: ${isLatest}`);
+        console.log(`🤖 JBKENY using WA v${version.join('.')}, isLatest: ${isLatest}`);
         
         const Matrix = makeWASocket({
             version,
             logger: pino({ level: 'silent' }),
             printQRInTerminal: useQR,
-            browser: ["XEON-XMD", "safari", "3.3"],
+            browser: ["JBKENY", "safari", "3.3"],
             auth: state,
             getMessage: async (key) => {
                 if (store) {
@@ -114,24 +114,24 @@ Matrix.ev.on('connection.update', (update) => {
         }
     } else if (connection === 'open') {
         if (initialConnection) {
-            console.log(chalk.green("Connected Successfully XEON XMD 🤍"));
+            console.log(chalk.green("Connected Successfully JBKENY"));
             Matrix.sendMessage(Matrix.user.id, { 
-                image: { url: "https://files.catbox.moe/78hoyu.jpg" }, 
+                image: { url: "https://files.catbox.moe/9zfoek.png" }, 
                 caption: `*Hello there User! 👋🏻* 
 
-> Simple, Straightforward, But Loaded With Features 🎊. Meet XEON XMD WhatsApp Bot.
+> Simple, Straightforward, But Loaded With Features 🎊. Meet JBKENY WhatsApp Bot.
 
-*Thanks for using XEON XMD 🚩* 
+*Thanks for using JBKENY 🚩* 
 
 > Join WhatsApp Channel: ⤵️  
-https://whatsapp.com/channel/0029VasHgfG4tRrwjAUyTs10
+https://whatsapp.com/channel/0029VbA35gS9mrGapPCmnS34
 
 - *YOUR PREFIX:* = ${prefix}
 
 Don't forget to give a star to the repo ⬇️  
-https://github.com/Black-Tappy/XEON-XMD
+https://github.com/jacobmusy/JBKENY
 
-> © REGARDS Ⴊl𐌀Ꮳk𐌕𐌀ႲႲჄ`
+> © REGARDS PK DRILLER`
             });
             initialConnection = false;
         } else {
@@ -179,7 +179,7 @@ https://github.com/Black-Tappy/XEON-XMD
             await Matrix.readMessages([mek.key]);
             
             if (config.AUTO_STATUS_REPLY) {
-                const customMessage = config.STATUS_READ_MSG || '✅ Auto Status Seen Bot By XEON-XMD';
+                const customMessage = config.STATUS_READ_MSG || '✅ Auto Status Seen Bot By JBKENY';
                 await Matrix.sendMessage(fromJid, { text: customMessage }, { quoted: mek });
             }
         }
